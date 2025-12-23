@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Pangu Data & Artifacts
+*.nc
+*.onnx
+*.pt
+*.pth
+data/era5/
+data/models/
+data/input_data/
+data/outputs/
+outputs/
+logs/
+
+# Keep constants
+!data/constants/

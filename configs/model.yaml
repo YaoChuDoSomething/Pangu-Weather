@@ -1,0 +1,13 @@
+# Model configuration for Pangu-Weather
+model:
+  name: "pangu-weather"
+  # Patch size for embedding (Z, H, W)
+  patch_size: [2, 4, 4]
+  # Embedding dimension
+  embed_dim: 192
+  # Number of layers in each stage [stage1, stage2, stage3]
+  depths: [2, 6, 6, 2]
+  # Drop path rate (stochastic depth)
+  drop_path_rate: 0.2
+  # Number of attention heads
+  num_heads: [6, 12, 12, 6]

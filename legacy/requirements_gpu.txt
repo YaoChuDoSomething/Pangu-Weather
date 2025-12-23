@@ -1,0 +1,7 @@
+cdsapi
+gdex_api_client
+netcdf4
+xarray
+numpy
+onnx==1.12.0
+onnxruntime-gpu==1.14.0

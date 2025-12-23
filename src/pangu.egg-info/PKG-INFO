@@ -1,3 +1,29 @@
+Metadata-Version: 2.4
+Name: pangu
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: ai-models>=0.7.2
+Requires-Dist: ai-models-panguweather>=0.0.7
+Requires-Dist: cfgrib>=0.9.15.1
+Requires-Dist: gdown>=5.2.0
+Requires-Dist: netcdf4>=1.7.3
+Requires-Dist: numpy>=2.4.0
+Requires-Dist: onnxruntime-gpu>=1.23.2
+Requires-Dist: pytest>=9.0.2
+Requires-Dist: pytest-cov>=7.0.0
+Requires-Dist: pyyaml>=6.0.3
+Requires-Dist: torch>=2.9.1
+Requires-Dist: xarray>=2025.12.0
+Requires-Dist: cdsapi>=0.7.5
+Requires-Dist: gdex-api-client
+Requires-Dist: cdo>=1.6.1
+Requires-Dist: timm>=1.0.22
+Requires-Dist: ruff>=0.14.10
+Requires-Dist: radon>=6.0.1
+Requires-Dist: isort>=7.0.0
+
 # Pangu-Weather
 
 基於 3D Swin Transformer 的全球氣象預報模型。

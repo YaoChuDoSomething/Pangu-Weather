@@ -1,0 +1,28 @@
+# Training configuration
+training:
+  # Number of epochs
+  epochs: 100
+  # Batch size
+  batch_size: 1
+  # Learning rate
+  learning_rate: 5.0e-4
+  # Weight decay
+  weight_decay: 0.01
+  # Warmup epochs
+  warmup_epochs: 5
+  # Gradient clipping
+  clip_grad: 1.0
+
+  # Optimizer
+  optimizer: "AdamW"
+
+  # Scheduler
+  scheduler: "cosine"
+
+  # Checkpoint saving
+  save_every: 10 # epochs
+  checkpoint_dir: "checkpoints"
+
+  # Logging
+  log_every: 100 # steps
+  log_dir: "logs"
