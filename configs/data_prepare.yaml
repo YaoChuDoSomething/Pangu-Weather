@@ -11,22 +11,22 @@ datasets:
     product_type: "reanalysis"
     format: "grib"
     variable:
-      - "10m_u_component_of_wind"     # u_s10m
-      - "10m_v_component_of_wind"     # v_s10m
-      - "2m_dewpoint_temperature"     # d_s2m
-      - "2m_temperature"              # t_s2m
-      - "mean_sea_level_pressure"     # msl_sfc
-      - "sea_surface_temperature"     # sst_sea
-      - "surface_pressure"            # sp_sfc
-      - "total_precipitation"         # tp_sfc
+      - "10m_u_component_of_wind"             # u_s10m
+      - "10m_v_component_of_wind"             # v_s10m
+      - "2m_dewpoint_temperature"             # d_s2m
+      - "2m_temperature"                      # t_s2m
+      - "mean_sea_level_pressure"             # msl_sfc
+      - "sea_surface_temperature"             # sst_sea
+      - "surface_pressure"                    # sp_sfc
+      - "total_precipitation"                 # tp_sfc
       - "surface_thermal_radiation_downwards" # ssrd_sfc
-      - "top_net_thermal_radiation"   # ttr_sfc
-      - "boundary_layer_height"       # blh
-      - "geopotential"                # hgt
-      - "land_sea_mask"               # lsm
-      - "total_column_water"          # tcw
-      - "total_column_water_vapour"   # tcwv
-      - "100m_u_component_of_wind"    # u_s100m
+      - "top_net_thermal_radiation"           # ttr_sfc
+      - "boundary_layer_height"               # blh_sfc
+      - "geopotential"                        # hgt_sfc
+      - "land_sea_mask"                       # lsm_sfc
+      - "total_column_water"                  # tcw_sfc
+      - "total_column_water_vapour"           # tcwv_sfc
+      - "100m_u_component_of_wind"            # u_s100m
       - "100m_v_component_of_wind"            # v_s100m
 
   era5_upper:
